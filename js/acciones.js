@@ -9,8 +9,8 @@ $(document).ready(function(e){
 		
 		$('#vibrar').tap(function(){
 			navigator.notification.vibrate(2000);
-		});//vibrar
+		});// tap vibrar
 		
-	},flase);//deviceready
+	},false);//deviceready
 });//ready
 			
